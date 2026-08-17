@@ -1,10 +1,15 @@
 # Keyframe Tools
 
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg)](LICENSE)
+[![Release](https://img.shields.io/github/v/release/digitizable/keyframe-tools)](https://github.com/digitizable/keyframe-tools/releases)
+
 **Open-source Roblox Studio plugin + CLI** for working with `KeyframeSequence` animation packs.
 
 Import Moon / Animation Editor `.rbxm` dumps, refine locomotion clips (smooth, clamp, fix loops), analyze pose stats, and preview on a selected rig — without hand-rolling import scripts.
 
 Not tied to any specific game project.
+
+**Repo:** https://github.com/digitizable/keyframe-tools
 
 ---
 
@@ -50,19 +55,22 @@ Not tied to any specific game project.
 
 ### Install
 
-**Option A — build with Rojo**
+**Option A — download release (easiest)**
+
+1. Grab **KeyframeTools.rbxm** from the [latest release](https://github.com/digitizable/keyframe-tools/releases/latest)
+2. Studio → **Plugins** → **Plugins Folder**
+3. Copy the file in  
+4. Restart Studio  
+5. Toolbar: **Keyframe Tools**
+
+**Option B — build with Rojo**
 
 ```powershell
 # from repo root
 ./scripts/build-plugin.ps1
 ```
 
-Then:
-
-1. Studio → **Plugins** → **Plugins Folder**
-2. Copy `KeyframeTools.rbxm` into that folder  
-3. Restart Studio  
-4. Toolbar: **Keyframe Tools**
+Then copy `KeyframeTools.rbxm` into Studio’s Plugins folder as above.
 
 **Option B — rebuild from source**
 
