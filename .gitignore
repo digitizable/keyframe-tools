@@ -1,0 +1,17 @@
+# Build output (keep shipping the plugin rbXm in-repo if you want)
+*.rbxmx
+*.rbxl
+*.rbxlx
+# Uncomment to ignore local rebuilds:
+# KeyframeTools.rbxm
+
+# Node
+cli/node_modules/
+cli/package-lock.json
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+*.log

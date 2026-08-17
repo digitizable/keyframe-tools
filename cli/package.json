@@ -1,0 +1,30 @@
+{
+	"name": "keyframe-tools-cli",
+	"version": "1.0.0",
+	"description": "CLI helpers for Roblox KeyframeSequence packs (.rbxm) — list, inspect, export JSON",
+	"type": "module",
+	"bin": {
+		"keyframe-tools": "./src/index.js"
+	},
+	"scripts": {
+		"start": "node src/index.js"
+	},
+	"engines": {
+		"node": ">=18"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/digitizable/keyframe-tools.git"
+	},
+	"keywords": [
+		"roblox",
+		"animation",
+		"keyframe",
+		"rbxm",
+		"studio"
+	],
+	"dependencies": {
+		"rbx-reader": "^1.5.10"
+	},
+	"license": "MIT"
+}
